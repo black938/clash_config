@@ -35,7 +35,7 @@ dns:
   proxy-server-nameserver:
     - https://dns.alidns.com/dns-query
     - https://doh.pub/dns-query
-   fallback:
+  fallback:
     - tls://1dot1dot1dot1.cloudflare-dns.com
     - tcp://1.1.1.1
     - https://1.0.0.1/dns-query
